@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <center>
+    <h1>Relazione di sistemi automatici</h1>
+</center>
+<hr>
+
+
+<link rel="stylesheet" href="style1.css">
+<style>
+    img{
+        display: block;
+        margin: auto;
+    }
+</style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+</head>
+<body>
+    <div class="header">
+
+    </div>
+    <img src="cartellone/sfondo.jpeg" height="550">
+    <br>
+    <all
+    <center>
+    <p align="left">in questa relazione mostrerò il processo che ho svolto fino ad arrivare al collaudo del circuito ed succesivamente alla sua conclusione.  </p>
+
+    <br>
+    <p align="left">Prima di iniziare la descrizione delle fasi è inportante che spieghi la funzione del circuito ed lo scopo dell' esercitazione di laboratorio che ho svolto</p>
+   <br>
+
+    <p align="left">I due circuiti che ho realizzato nell' esercitazione avevano rispettivamente lo scopo divisualizzare su un display 16 X 2 la scritta "ciao mondo",mentre il secondo aveva lo scopo di di viusalizzare sul medesimo display la temperatura rilevata dal apposito sensore LM35 </p>
+
+
+
+
+
+    </center>
+    <hr>
+    <h3>calcolo delta</h3>
+    <label id="fondoLabel">fONDO SCALA mV</label><br>
+    <input type="text" id="fondoLabelBox"><br>
+    <label id="livelloLabel">Livello </label><br>
+    <input type="text" id="livellolBox"><br>
+    <button type="button" id="inviaButton">invia</button><br>
+    <label id="deltaLabel">Δv</label><br>
+   
+    <hr>
+   
+    <h3> calcolo livello</h3>
+    <label id="Vi2Label">vi in mV</label><br>
+    <input type="text" id="vi2Box"><br>
+    <label id="delta2Label">Δv in mV</label><br>
+    <input type="text" id="Δv2Box"><br>
+    <button type="button" id="invia2Button">invia</button><br>
+    <label id="livello2Label">Livello </label><br>
+
+    <hr>
+    <h3> calcolo Vi</h3>
+    <label id="livello3Label">Livello </label><br>
+    <input type="text" id="livello3lBox"><br>
+    <label id="delta3Label">Δv in mV</label><br>
+    <input type="text" id="Δv3Box"><br>
+    <button type="button" id="invia3Button">invia</button><br>
+    <label id="Vi3Label">vi in mV</label><br>
+    <hr>
+    <p align="left">inseguito all' individuazione della funzione dei due circuiti che dovevo costruire ho dato importanza allo scopo delle esercitazioni pratiche sulla quale si basa questa relazione  <p>
+        <p align="left">Lo scopo dell'esercitazione pratica riguardante la visualizzazione della scritta "ciao mondo " su un dipslay 16 x 2 era quello di farmi imparare ad usare la scheda arduino insieme ad un  display 16 x 2 per visualizzare un messaggio su di esso, per potermi dare una base in tale procedura, così da permettermi inseguito di lavorare su un programma simile ma con delle difficoltà aggiunte. <p>  
+
+        <p align="left">Che rappresenta esattamente il secondo circuito che ho svolto ovvero il circuito di rilevazione e monitoraggio della temperatura<p>
+            <p align="left">Dopo aver focalizzato lo scopo del circuito ed gli obbiettivi che dovevo raggiungere con la prova pratica.</p>
+            <p align="left">ho utilizzato gli appunti che ho preso durante la spiegazione del professore per comprendere  i concetti chiave per la costruzione dei due circuiti.  da queste sue  spiegazioni ho capito che  per la costruzione del circuito di rilevazione e monitoraggio della temperatura erano necessari questi elementi: 2^10 livelli ed l'uso delle porte analogiche della scheda arduino</p>
+
+            <p align="left">i 2^10 livelli derivano da i 10 bit necessari per  comporre le scritte
+ mentre le porte analogiche sono utilizzate per per portare i valori dati dal sensore di temperatura LM35 in gradi centigradi in  modo da assegnare al valore della temperatura un livello.</p>
+            <p align="left"></p>
+
+    <script src="index.js"></script>
+        
+    </script>
+</body>
+</html>
